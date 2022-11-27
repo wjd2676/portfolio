@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
+import { Link } from "react-scroll";
 
 const Nav = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -15,13 +16,25 @@ const Nav = () => {
   return (
     <HeaderContainer isScrollMoved={isScrollMoved}>
       <Header>
-        <PageTitle>JungHyunJun's Portfolio</PageTitle>
+        <PageTitle to="Top" spy={true} smooth={true}>
+          JungHyunJun's Portfolio
+        </PageTitle>
         <HeaderNav>
-          <HeaderNavMenu>About me</HeaderNavMenu>
-          <HeaderNavMenu>Skills</HeaderNavMenu>
-          <HeaderNavMenu>Archiving</HeaderNavMenu>
-          <HeaderNavMenu>Projects</HeaderNavMenu>
-          <HeaderNavMenu>Career</HeaderNavMenu>
+          <HeaderNavMenu to="AboutMe" spy={true} smooth={true}>
+            About me
+          </HeaderNavMenu>
+          <HeaderNavMenu to="Skills" spy={true} smooth={true}>
+            Skills
+          </HeaderNavMenu>
+          <HeaderNavMenu to="Archiving" spy={true} smooth={true}>
+            Archiving
+          </HeaderNavMenu>
+          <HeaderNavMenu to="Projects" spy={true} smooth={true}>
+            Projects
+          </HeaderNavMenu>
+          <HeaderNavMenu to="Career" spy={true} smooth={true}>
+            Career
+          </HeaderNavMenu>
         </HeaderNav>
       </Header>
     </HeaderContainer>
@@ -47,7 +60,7 @@ const Header = styled.div`
   margin: 0 auto;
 `;
 
-const PageTitle = styled.div`
+const PageTitle = styled(Link)`
   display: inline-block;
   font-weight: 900;
   font-size: 2rem;
@@ -60,7 +73,7 @@ const HeaderNav = styled.div`
   float: right;
 `;
 
-const HeaderNavMenu = styled.div`
+const HeaderNavMenu = styled(Link)`
   display: inline-block;
   padding: 0 1rem;
   font-weight: 700;

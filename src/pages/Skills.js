@@ -6,7 +6,7 @@ import git from "../assets/git.png";
 
 const Skills = () => {
   return (
-    <SkillPage>
+    <SkillPage id="Skills">
       <SkillsContainer>
         <PageTitle>Skills</PageTitle>
         <SkillsContents>

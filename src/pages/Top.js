@@ -5,7 +5,7 @@ import TopImage2 from "../assets/TopImage2.svg";
 
 const Top = () => {
   return (
-    <div>
+    <div id="Top">
       <MainImageConatiner>
         <MainImage src={TopImage} alt="mainImage" />
         <MainImage2 src={TopImage2} alt="mainImage2" />
@@ -44,12 +44,12 @@ const MainImage2 = styled.img`
 
 const MainPageContents = styled.div`
   position: absolute;
-  top: 10%;
+  top: 5%;
   left: 20%;
   width: 100%;
   max-width: 71.25rem;
   margin: 0 auto;
-  padding: calc(4rem + 4.5rem) 2rem 4rem;
+  padding: 0 calc(4rem + 4.5rem) 2rem 4rem;
   text-align: center;
 `;
 

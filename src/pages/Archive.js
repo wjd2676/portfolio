@@ -5,20 +5,26 @@ import githubTitle from "../assets/github.png";
 
 const Archive = () => {
   return (
-    <ArchivePage>
+    <ArchivePage id="Archiving">
       <ArchiveContainer>
         <PageTitle>ARCHIVE</PageTitle>
         <ArchiveContents>
-          <SkillsBox>
-            <ImageTitle src={githubTitle} alt="githubTitle" />
-            <ArchiveLink href="https://github.com/wjd2676">Git Hub</ArchiveLink>
-          </SkillsBox>
-          <SkillsBox>
-            <ImageTitle src={nostionTitle} alt="nostionTitle" />
-            <ArchiveLink href="https://sandy-thread-f9f.notion.site/Front-End-abf5b8c637fb4a2a8a11a48be76c7209">
-              Notion
-            </ArchiveLink>
-          </SkillsBox>
+          {ABOUT_ME_DATA.map(data => (
+            <SkillsBox key={data.id}>
+              <ImageTitleContents>
+                <ImageTitle src={data.titleImage} alt={data.title} />
+              </ImageTitleContents>
+              <ArchiveLink href={data.link}>{data.title}</ArchiveLink>
+              <Archiving>
+                <ArchivingTitle>{data.archiveTitle}</ArchivingTitle>
+                <ArchivingContainer>
+                  {data.text.map(el => (
+                    <ArchivingList key={el.id}>{el.text}</ArchivingList>
+                  ))}
+                </ArchivingContainer>
+              </Archiving>
+            </SkillsBox>
+          ))}
         </ArchiveContents>
       </ArchiveContainer>
     </ArchivePage>
@@ -55,12 +61,18 @@ const ArchiveContents = styled.div`
 `;
 
 const SkillsBox = styled.div`
-  flex-shrink: 0;
-  width: 17rem;
-  margin-top: 1.5rem;
-  padding: 1.5rem;
+  display: border-box;
+  width: 26rem;
+  padding: 2rem;
   border-radius: 1rem;
-  background-color: #f3f3f3;
+  background-color: #f5f5f5;
+  text-decoration: none;
+`;
+
+const ImageTitleContents = styled.div`
+  display: block;
+  width: 12rem;
+  margin-bottom: 1rem;
 `;
 
 const ImageTitle = styled.img`
@@ -74,10 +86,41 @@ const ArchiveLink = styled.a`
   font-weight: 700;
 `;
 
+const Archiving = styled.div`
+  color: black;
+`;
+
+const ArchivingTitle = styled.p`
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  font-size: 18px;
+  font-weight: 600;
+`;
+
+const ArchivingContainer = styled.ul`
+  padding-left: 1rem;
+  margin: 0;
+  text-align: start;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+`;
+
+const ArchivingList = styled.li`
+  margin-bottom: 1rem;
+`;
+
 const ABOUT_ME_DATA = [
   {
     id: 1,
-    title: "개인공부 소스 코드 저장소입니다.",
+    titleImage: `${githubTitle}`,
+    title: "Github",
+    link: "https://github.com/wjd2676",
+    archiveTitle: "개인공부 소스 코드 저장소입니다.",
     text: [
       {
         id: 1,
@@ -95,19 +138,22 @@ const ABOUT_ME_DATA = [
   },
   {
     id: 2,
-    title: "공부한 것을 바탕으로 작성한 개인 블로그입니다.",
+    titleImage: `${nostionTitle}`,
+    title: "Notion",
+    link: "https://sandy-thread-f9f.notion.site/Front-End-abf5b8c637fb4a2a8a11a48be76c7209",
+    archiveTitle: "기록을 위한 개인 블로그입니다.",
     text: [
       {
         id: 1,
-        text: "기억보다 기록을, 정리하기위해 블로그를 작성하고있습니다.",
+        text: "기억보다 기록을, 정리하기위해 블로그를 작성",
       },
       {
         id: 2,
-        text: "",
+        text: "프로젝트 관련 후기, 느낌점 들을 정리",
       },
       {
         id: 3,
-        text: "",
+        text: "개발자를 시작하면서 공부한 웹 지식 정리",
       },
     ],
   },

@@ -9,7 +9,7 @@ import userIcon from "../assets/user.png";
 
 const AboutMe = () => {
   return (
-    <AboutMeContainer>
+    <AboutMeContainer id="AboutMe">
       <PageTitle>AboutMe</PageTitle>
       <ContactContainer>
         {ABOUT_ME_DATA.map(data => (

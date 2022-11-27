@@ -4,6 +4,9 @@ import Top from "./Top";
 import AboutMe from "./AboutMe";
 import Skills from "./Skills";
 import Archive from "./Archive";
+import Career from "./Career";
+import Footer from "./Footer";
+import Projects from "./Projects";
 
 const Main = () => {
   return (
@@ -12,6 +15,9 @@ const Main = () => {
       <AboutMe />
       <Skills />
       <Archive />
+      <Projects />
+      <Career />
+      <Footer />
     </MainContainer>
   );
 };
