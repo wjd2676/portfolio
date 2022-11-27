@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Nav from "../components/Nav";
 import Top from "./Top";
 import AboutMe from "./AboutMe";
 import Skills from "./Skills";
@@ -11,6 +12,7 @@ import Projects from "./Projects";
 const Main = () => {
   return (
     <MainContainer>
+      <Nav />
       <Top />
       <AboutMe />
       <Skills />
