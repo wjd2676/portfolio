@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.js": "/static/js/main.6b1da420.js",
+    "static/media/TopImage.svg": "/static/media/TopImage.b4e18a11ad89a0487c9beb98ea0928ec.svg",
+    "static/media/TopImage2.svg": "/static/media/TopImage2.91144d24561a06d793e803f214e163b3.svg",
+    "static/media/nosemain2.svg": "/static/media/nosemain2.301e1702ed79e952a27fcf8a542b8579.svg",
+    "static/media/nosemain.svg": "/static/media/nosemain.4420ad2df7fc85146a49cd837472c2f1.svg",
+    "static/media/nosemain3.svg": "/static/media/nosemain3.11a16ef9633d9f580ff91663c4f0ac9d.svg",
+    "static/media/faketripmain.svg": "/static/media/faketripmain.94a307aabfe626812046db905ae9f551.svg",
+    "static/media/faketripmain2.svg": "/static/media/faketripmain2.2a00f9d86a0150d77dd2e967c7335c2f.svg",
+    "static/media/faketripmain3.svg": "/static/media/faketripmain3.707875b3bf9f96ce76b28b3e6a6e5c15.svg",
+    "static/media/nosemain5.svg": "/static/media/nosemain5.78af27572275248c006849530521864e.svg",
+    "static/media/frontEnd.png": "/static/media/frontEnd.22f745ea33e0fbd48a3f.png",
+    "static/media/faketripmain4.svg": "/static/media/faketripmain4.cdd78fa2db6773eecac8f6c94af1d798.svg",
+    "static/media/endoai.png": "/static/media/endoai.09d5f0230d87b3ba2c70.png",
+    "static/media/nosemain4.svg": "/static/media/nosemain4.63dc19cf1a27030687be96ad3772510b.svg",
+    "static/media/github.png": "/static/media/github.a5286179c9ed168ac303.png",
+    "static/media/git.png": "/static/media/git.caeb16a2dd230258901b.png",
+    "static/media/docker.png": "/static/media/docker.1c403f007b3fc6d6db14.png",
+    "static/media/nostion.png": "/static/media/nostion.e7490d9d6d67d74d5b9d.png",
+    "static/media/user.png": "/static/media/user.05d0404ad8a0ab5bdefa.png",
+    "static/media/location.png": "/static/media/location.a405c2668c55f74c09be.png",
+    "static/media/date-of-birth.png": "/static/media/date-of-birth.099f5e48e4c3687a880f.png",
+    "static/media/graduation.png": "/static/media/graduation.a1bb24966ac81fbe1743.png",
+    "index.html": "/index.html",
+    "main.6b1da420.js.map": "/static/js/main.6b1da420.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.6b1da420.js"
+  ]
+}
