@@ -31,7 +31,7 @@ const AboutMe = () => {
 const AboutMeContainer = styled.div`
   width: 100%;
   height: 480px;
-  background-color: #f3f3f3;
+  background-color: white;
   width: 100%;
   max-width: 71.25rem;
   margin: 0 auto;
