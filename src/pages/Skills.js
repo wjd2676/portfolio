@@ -62,7 +62,7 @@ const SkillsBox = styled.div`
   margin-top: 1.5rem;
   padding: 1.5rem;
   border-radius: 1rem;
-  background-color: #f3f3f3;
+  background-color: white;
   box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
 `;
 

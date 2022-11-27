@@ -26,7 +26,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://wjd2676.github.io/portpolio",
+  "homepage": "https://wjd2676.github.io/portfolio/",
   "eslintConfig": {
     "extends": [
       "react-app",

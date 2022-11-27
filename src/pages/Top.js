@@ -29,24 +29,23 @@ const Top = () => {
 const MainImageConatiner = styled.div`
   display: flex;
   flex-direction: row;
-  height: 750px;
+  justify-content: center;
+  height: 47rem;
+  overflow-x: hidden;
 `;
 
 const MainImage = styled.img`
-  height: 100%;
   opacity: 0.3;
 `;
 
 const MainImage2 = styled.img`
-  height: 100%;
   opacity: 0.3;
 `;
 
 const MainPageContents = styled.div`
   position: absolute;
-  top: 5%;
-  left: 20%;
-  width: 100%;
+  top: 3%;
+  left: 25%;
   max-width: 71.25rem;
   margin: 0 auto;
   padding: 0 calc(4rem + 4.5rem) 2rem 4rem;

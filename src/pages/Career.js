@@ -48,7 +48,9 @@ const Career = () => {
           </TextContents>
         </CareerContents>
         <ButtonContents>
-          <BlogButton>프로젝트 후기 Notion</BlogButton>
+          <a href="https://sandy-thread-f9f.notion.site/EndoAI-2022-09-15-2022-12-15-39fe85842db94ba8be1fb06aa2149737">
+            <BlogButton>프로젝트 후기 Notion</BlogButton>
+          </a>
         </ButtonContents>
       </CareerContainer>
     </CareerPage>
@@ -57,7 +59,7 @@ const Career = () => {
 
 const CareerPage = styled.div`
   width: 100%;
-  background-color: #f3f3f3;
+  background-color: white;
 `;
 
 const CareerContainer = styled.div`
@@ -150,13 +152,12 @@ const MyCareerList = styled.li`
 `;
 
 const ButtonContents = styled.div`
-  width: 100%;
   margin: 5rem;
 `;
 
 const BlogButton = styled.button`
   width: 30rem;
-  height: 100px;
+  height: 6rem;
   background-color: black;
   color: white;
   font-size: 2rem;

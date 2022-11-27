@@ -65,6 +65,7 @@ const SkillsBox = styled.div`
   width: 26rem;
   padding: 2rem;
   border-radius: 1rem;
+  margin-bottom: 1rem;
   background-color: #f5f5f5;
   text-decoration: none;
 `;
@@ -94,7 +95,7 @@ const ArchivingTitle = styled.p`
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 600;
 `;
 

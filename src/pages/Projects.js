@@ -55,7 +55,7 @@ const Projects = () => {
               </p>
             </ProjectTextContainer>
             <ButtonContents>
-              <a href="https://sandy-thread-f9f.notion.site/1-NOS-PAFFEM-161527f4555045c0bbece95d48d393fe">
+              <a href="https://sandy-thread-f9f.notion.site/NOSE-5ef9e77ad07844b496d10b695dca95fb">
                 <BlogButton>프로젝트 후기 Notion</BlogButton>
               </a>
             </ButtonContents>
@@ -97,7 +97,7 @@ const Projects = () => {
               </p>
             </ProjectTextContainer>
             <ButtonContents>
-              <a href="https://sandy-thread-f9f.notion.site/2-FakeTrip-c0fe3beabad840a7a42eb39d599f6d60">
+              <a href="https://sandy-thread-f9f.notion.site/FakeTrip-bdbc2e97e520421a952ec320f1d5a3cb">
                 <BlogButton>프로젝트 후기 Notion</BlogButton>
               </a>
             </ButtonContents>
@@ -130,6 +130,7 @@ const PageTitle = styled.div`
 const ProjectsContents = styled.div`
   padding: 3rem;
   margin: 0 auto 2rem;
+  width: 100%;
   border-radius: 1rem;
   background-color: #fff;
   box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
@@ -156,17 +157,18 @@ const ProjectInfomation = styled.div`
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  width: 100%;
 `;
 
 const StyledCarousel = styled(Carousel)`
   max-width: 60rem !important;
-  height: 600px !important;
+  height: 38rem !important;
   background-color: black;
   color: #f3f3f3;
 
   img {
     width: 60rem;
-    height: 600px;
+    height: 38rem;
   }
 `;
 
@@ -193,7 +195,7 @@ const ButtonContents = styled.div`
 
 const BlogButton = styled.button`
   width: 30rem;
-  height: 100px;
+  height: 6rem;
   background-color: black;
   color: white;
   font-size: 2rem;
