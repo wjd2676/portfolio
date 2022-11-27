@@ -1,15 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 import { Carousel } from "antd";
-import nose1 from "../assets/nose/nosemain.svg";
-import nose2 from "../assets/nose/nosemain2.svg";
-import nose3 from "../assets/nose/nosemain3.svg";
-import nose4 from "../assets/nose/nosemain4.svg";
-import nose5 from "../assets/nose/nosemain5.svg";
-import fakeTrip1 from "../assets/fakeTrip/faketripmain.svg";
-import fakeTrip2 from "../assets/fakeTrip/faketripmain2.svg";
-import fakeTrip3 from "../assets/fakeTrip/faketripmain3.svg";
-import fakeTrip4 from "../assets/fakeTrip/faketripmain4.svg";
+import nose1 from "../assets/nosemain.svg";
+import nose2 from "../assets/nosemain2.svg";
+import nose3 from "../assets/nosemain3.svg";
+import nose4 from "../assets/nosemain4.svg";
+import nose5 from "../assets/nosemain5.svg";
+import fakeTrip1 from "../assets/faketripmain.svg";
+import fakeTrip2 from "../assets/faketripmain2.svg";
+import fakeTrip3 from "../assets/faketripmain3.svg";
+import fakeTrip4 from "../assets/faketripmain4.svg";
 
 const Projects = () => {
   return (
