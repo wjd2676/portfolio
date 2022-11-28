@@ -14,7 +14,7 @@ const TabletNav = () => {
     <HeaderContainer>
       <Header>
         <PageTitle to="Top" spy={true} smooth={true}>
-          JungHyunJun's Portfolio
+          JHJ
         </PageTitle>
         <HeaderIcon src={menuIcon} alt="menuIcon" onClick={() => onClick()} />
       </Header>

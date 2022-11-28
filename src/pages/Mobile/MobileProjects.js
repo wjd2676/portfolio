@@ -163,14 +163,14 @@ const ProjectInfomation = styled.div`
 `;
 
 const StyledCarousel = styled(Carousel)`
-  max-width: 33rem !important;
-  height: 25rem !important;
+  max-width: 23rem !important;
+  height: 20rem !important;
   background-color: black;
   color: #f3f3f3;
 
   img {
-    width: 33rem;
-    height: 25rem;
+    width: 23rem;
+    height: 20rem;
   }
 `;
 
