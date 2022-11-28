@@ -51,7 +51,7 @@ const MobileCareer = () => {
         </CareerContents>
         <ButtonContents>
           <a href="https://sandy-thread-f9f.notion.site/EndoAI-2022-09-15-2022-12-15-39fe85842db94ba8be1fb06aa2149737">
-            <BlogButton>프로젝트 후기 Notion</BlogButton>
+            <BlogButton>프로젝트 후기</BlogButton>
           </a>
         </ButtonContents>
       </CareerContainer>
@@ -158,7 +158,7 @@ const ButtonContents = styled.div`
 `;
 
 const BlogButton = styled.button`
-  width: 20rem;
+  width: 15rem;
   height: 6rem;
   background-color: black;
   color: white;

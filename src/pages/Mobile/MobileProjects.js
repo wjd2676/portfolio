@@ -57,7 +57,7 @@ const MobileProjects = () => {
             </ProjectTextContainer>
             <ButtonContents>
               <a href="https://sandy-thread-f9f.notion.site/NOSE-5ef9e77ad07844b496d10b695dca95fb">
-                <BlogButton>프로젝트 후기 Notion</BlogButton>
+                <BlogButton>프로젝트 후기</BlogButton>
               </a>
             </ButtonContents>
           </ProjectInfomation>
@@ -100,7 +100,7 @@ const MobileProjects = () => {
             </ProjectTextContainer>
             <ButtonContents>
               <a href="https://sandy-thread-f9f.notion.site/FakeTrip-bdbc2e97e520421a952ec320f1d5a3cb">
-                <BlogButton>프로젝트 후기 Notion</BlogButton>
+                <BlogButton>프로젝트 후기</BlogButton>
               </a>
             </ButtonContents>
           </ProjectInfomation>
@@ -196,7 +196,7 @@ const ButtonContents = styled.div`
 `;
 
 const BlogButton = styled.button`
-  width: 20rem;
+  width: 15rem;
   height: 6rem;
   background-color: black;
   color: white;
