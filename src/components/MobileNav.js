@@ -79,7 +79,6 @@ const HeaderContainer = styled.div`
 const Header = styled.div`
   display: flex;
   justify-content: space-between;
-  width: 100%;
   max-width: 71.25rem;
   height: 4.5rem;
   padding: 1.25rem 2rem;

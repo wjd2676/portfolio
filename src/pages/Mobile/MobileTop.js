@@ -44,10 +44,9 @@ const MainImage2 = styled.img`
 const MainPageContents = styled.div`
   position: absolute;
   top: 2%;
-  left: 15%;
+  left: 1%;
   max-width: 71.25rem;
-  margin: 0 auto;
-  padding: 0 calc(4rem + 4.5rem) 2rem 4rem;
+  padding: 0 auto;
   text-align: center;
 `;
 
