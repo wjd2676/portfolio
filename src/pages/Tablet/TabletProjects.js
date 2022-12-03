@@ -10,6 +10,10 @@ import fakeTrip1 from "../../assets/faketripmain.svg";
 import fakeTrip2 from "../../assets/faketripmain2.svg";
 import fakeTrip3 from "../../assets/faketripmain3.svg";
 import fakeTrip4 from "../../assets/faketripmain4.svg";
+import portfolio from "../../assets/portfolio.png";
+import portfolio2 from "../../assets/portfolio2.png";
+import portfolio3 from "../../assets/portfolio3.png";
+import portfolio4 from "../../assets/portfolio4.png";
 
 const TabletProjects = () => {
   return (
@@ -98,6 +102,38 @@ const TabletProjects = () => {
             </ProjectTextContainer>
             <ButtonContents>
               <a href="https://sandy-thread-f9f.notion.site/FakeTrip-bdbc2e97e520421a952ec320f1d5a3cb">
+                <BlogButton>프로젝트 후기 Notion</BlogButton>
+              </a>
+            </ButtonContents>
+          </ProjectInfomation>
+        </ProjectsContents>
+        <ProjectsContents>
+          <ProjectTitle>PortFolio</ProjectTitle>
+          <ProjectSubTitle>2022.11(1인 개인 프로젝트)</ProjectSubTitle>
+          <ProjectInfomation>
+            <StyledCarousel>
+              <div>
+                <img src={portfolio} alt="portfolio" />
+              </div>
+              <div>
+                <img src={portfolio2} alt="portfolio2" />
+              </div>
+              <div>
+                <img src={portfolio3} alt="portfolio3" />
+              </div>
+              <div>
+                <img src={portfolio4} alt="portfolio4" />
+              </div>
+            </StyledCarousel>
+            <ProjectTextContainer>
+              <ProjectTextTitle>
+                포트폴리오 제작을 위한 1인 프로젝트입니다.
+              </ProjectTextTitle>
+              <p>반응형 Web 제작</p>
+              <p>GitHub Page 배포</p>
+            </ProjectTextContainer>
+            <ButtonContents>
+              <a href="https://sandy-thread-f9f.notion.site/1c630ff21eea496cb7dbcce43d5e6603">
                 <BlogButton>프로젝트 후기 Notion</BlogButton>
               </a>
             </ButtonContents>
